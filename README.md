@@ -1,7 +1,22 @@
-# Handwritten-Digit-Recognition
-This is another good project to start off as a beginner in Deep Learning.
-The model takes an 28x28 image as an input and determines the digit which is handwritten in it.
-There is a simple GUI made with Tkinter, with a canvas on which you can draw with your cursor the digit.
-The answer will contain the class of the image (0, 1, 2, ..., 9) and the percentage.
-------------------------------------------------------------------------------------------------------------------------------------
-The model is built with Keras, Tensorflow GPU 2.x, Tkinter.
+# Handwritten_Digit_Classifier_CNN
+
+The MNIST dataset contains 60,000 training images of handwritten digits from zero to nine and 10,000 images for testing. So, the MNIST dataset has 10 different classes.
+
+<hr>
+
+Required libraries: pip install numpy, tensorflow, keras.
+
+<hr>
+
+The Tkinter library comes in the Python standard library,have created a function predict_digit() that takes the image as input and then uses the trained model to predict the digit.
+
+Then, created the app class which is responsible for building the GUI for our app,then created a canvas where we can draw by capturing the mouse event and with a button, we trigger the predict_digit() function and display the results.
+
+<hr>
+
+![result2](https://user-images.githubusercontent.com/61036755/82662986-77d33780-9c4c-11ea-9ef7-394602e61f3f.png)
+
+
+<hr>
+
+If you like this repo, please don't forget to give a ⭐.
