@@ -1,22 +1,56 @@
-# Handwritten_Digit_Classifier_CNN
+# Digit Recognition
+Handwritten Digit Recognition using OpenCV, sklearn and Python | [Video](https://www.youtube.com/watch?v=ur6JY2Hl-MM)
 
-The MNIST dataset contains 60,000 training images of handwritten digits from zero to nine and 10,000 images for testing. So, the MNIST dataset has 10 different classes.
+**Check out the blog post [here](http://hanzratech.in/python/handwritten-digit-recognition-using-opencv-sklearn-and-python/) for complete notes on how the code works.**
 
-<hr>
+# Dependencies
+1. `cv2`
+2. `sklearn`
+3. `skimage`
+4. `numpy`
+5. `collections`
 
-Required libraries: pip install numpy, tensorflow, keras.
+# Contents
+This repository contains the following files-
 
-<hr>
+1. `generateClassifier.py` - Python Script to create the classifier file `digits_cls.pkl`.
+2. `performRecognition.py` - Python Script to test the classifier.
+3. `digits_cls.pkl` - Classifier file for digit recognition.
+4. `photo_1.jpg` - Test image number 1 to test the classifier
+5. `photo_2.jpg` - Test image numbre 2 to test the classifier
 
-The Tkinter library comes in the Python standard library,have created a function predict_digit() that takes the image as input and then uses the trained model to predict the digit.
+## Usage 
 
-Then, created the app class which is responsible for building the GUI for our app,then created a canvas where we can draw by capturing the mouse event and with a button, we trigger the predict_digit() function and display the results.
+* Clone the repository - 
+```bash
+cd 
+git clone https://github.com/bikz05/digit-recognition.git
+cd digit-recognition
+```
+* The next step is to train the classifier. To do so run the script `generateClassifier.py`. It will produce the classifier named `digits_cls.pkl`. 
 
-<hr>
+**NOTE** - *I have already created the `digits_cls.pkl`, so this step is not necessary.*
+```python
+python generateClassifier.py
+```
+* To test the classifier, run the `performRecognition.py` script.
+```python
+python performRecognition.py -c <path to classifier file> -i <path to test image>
+```
+ex -
+```python
+python performRecognition.py -c digits_cls.pkl -i photo_1.jpg
+```
 
-![result2](https://user-images.githubusercontent.com/61036755/82662986-77d33780-9c4c-11ea-9ef7-394602e61f3f.png)
+## Results
 
+### Sample Image 1
+![Result Number 1](http://hanzratech.in/figures/digit-reco-1-out.png)
+### Sample Image 2
+![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
 
-<hr>
+## TODO
 
-If you like this repo, please don't forget to give a ⭐.
+* Add a CNN Based approach
+* Reject bounding boxes lesser than some area
+* Look into user errors
