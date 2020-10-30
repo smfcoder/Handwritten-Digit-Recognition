@@ -24,14 +24,14 @@ MNIST [(Modified National Institute of Standards and Technology database)](https
 
 **Accuracy** using **5-crossfold Validation** is mean=98.960 std=0.097, n=5 and using the built-in evaluation of **99.13**
 
-![Custom number prediction](https://github.com/Joy2469/Deep-Learning-MNIST---Handwritten-Digit-Recognition/blob/master/Images/accuarcy%20custom.png)
+![Custom number prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/master/Images/accuarcy%20custom.png)
 
 ![prediction](Images/accuracy%20with%20custom%20data.png)
 
 <br/><br/>
 ## Prediction
 ### A. Dataset images
-![Data Set Prediction](https://github.com/Joy2469/Deep-Learning-MNIST---Handwritten-Digit-Recognition/blob/master/Images/data%20set%20image%20prediction.png)
+![Data Set Prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/master/Images/data%20set%20image%20prediction.png)
 
 ### B. Testing with Custom Number
 
