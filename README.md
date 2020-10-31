@@ -34,9 +34,10 @@ MNIST [(Modified National Institute of Standards and Technology database)](https
 
 ### B. Testing with Custom Number
 
-![Custom number prediction](Images/TestNumber.png)
+![Custom number prediction](Images/four.png)
 <br/>
-![prediction](Images/prediction.png)
+Predicted Number:  4
+<!-- ![prediction](Images/prediction.png) -->
 <br/><br/>
 
 
