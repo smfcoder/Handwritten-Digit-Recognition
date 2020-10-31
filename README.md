@@ -14,7 +14,6 @@ MNIST [(Modified National Institute of Standards and Technology database)](https
 5. Saving the model
 6. Make Predictions
 
-### Check out the detailed steps at my medium story [Deep Learning Project — Handwritten Digit Recognition using Python](https://medium.com/@aditijain0424/deep-learning-project-handwritten-digit-recognition-using-python-26da7ed11d1c)
 <br/><br/>
 ## Summary of Sequential model
 
@@ -24,14 +23,14 @@ MNIST [(Modified National Institute of Standards and Technology database)](https
 
 **Accuracy** using **5-crossfold Validation** is mean=98.960 std=0.097, n=5 and using the built-in evaluation of **99.13**
 
-![Custom number prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/master/Images/accuarcy%20custom.png)
+![Custom number prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/main/Images/accuarcy%20custom.png)
 
-![prediction](Images/accuracy%20with%20custom%20data.png)
+![prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/main/Images/accuracy%20with%20custom%20data.png)
 
 <br/><br/>
 ## Prediction
 ### A. Dataset images
-![Data Set Prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/master/Images/data%20set%20image%20prediction.png)
+![Data Set Prediction](https://github.com/smfcoder/Handwritten-Digit-Recognition/blob/main/Images/data%20set%20image%20prediction.png)
 
 ### B. Testing with Custom Number
 
